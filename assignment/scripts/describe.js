@@ -29,7 +29,7 @@ if (number >= 2) {
 // we declare a variable named dane
 // then create a if else that if the declared name is mary. it will say hi mary 
 // which it is not so the console will log "how do you do?"
-//there is also no console.log "name set to dane"
+// console.log ( name dane )
 
 //CODE
 /*
@@ -70,10 +70,13 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// declare isStudent with a value of true, declare age with a value of 34 and declare zip with a value of 55407
+// write a 4 if else compund, if the isStudent is true and the zip is greater then 80000 it will say your a student on the west coast
+// if the isstudent is faalse and the age is less then 30 the message will be what are your hobbies
+//if the the isStudent is true the message will be welcome to prime, and else if nothings matches the messsge how about the weather
+// console.log(isstudent)
+//console.log ( age )
+//console.log (zip)
 
 //CODE
 /*
@@ -133,7 +136,7 @@ if (number >= 2) {
 let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
-
+-- declare  colorthree for purple -- 
 if (mix === true) {
   colorOne = 'purple';
 }
