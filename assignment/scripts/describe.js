@@ -26,10 +26,10 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// we declare a variable named dane
+// then create a if else that if the declared name is mary. it will say hi mary 
+// which it is not so the console will log "how do you do?"
+//there is also no console.log "name set to dane"
 
 //CODE
 /*
@@ -45,10 +45,10 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// declare secret with empty value
+// declare code with a value of 123 
+// then a condtional that if the code is equal to 123 and the code is greater then 250  
+// the secret will have a value of super duper 
 
 //CODE
 /*
