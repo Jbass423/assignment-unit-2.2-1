@@ -133,13 +133,15 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
+-- declare a  variable for purple let colorThree= "purple";--
 let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
--- declare  colorthree for purple -- 
+-- remove colorOne= "purple" and replace it with colorThree= 'purple';--
 if (mix === true) {
   colorOne = 'purple';
 }
+--console.log ( colorOne,colortwo,mix,colorThree);
 */
 
 //5. We start with two variables -- temp is set to 40 and time is set to 4.
@@ -149,10 +151,13 @@ if (mix === true) {
 /*
 let temp = 40;
 const time = 4;
-
+ 
+-- console.log( temp,time);--
+--if (temp >= 39)--
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
+
 */
 
 //6. We start with two variables -- age is set to 21 and minAge is set to 21.
@@ -162,11 +167,18 @@ if (temp > 39 || time >= 4) {
 /*
 let age = 21;
 const minAge = 21;
-
+--console.log(age,minage);-- add let result; 
 if(minAge <= age) {
   console.log('no entry');
 } else {
   console.log('enter');
 }
+------if(minAge <= age) {
+  console.log(result='no entry');
+} else {
+  console.log(result='enter');
+}
+
+console.log(age result);
 */
 
