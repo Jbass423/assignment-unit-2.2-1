@@ -124,8 +124,7 @@ if (number >= 2) {
   console.log('yes');
 }
 
-*/
-
+*/ 
 
 
 //4. We start with three variables -- colorOne is set to 'blue' and 
@@ -133,15 +132,32 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
--- declare a  variable for purple let colorThree= "purple";--
+
 let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
--- remove colorOne= "purple" and replace it with colorThree= 'purple';--
+
 if (mix === true) {
   colorOne = 'purple';
 }
---console.log ( colorOne,colortwo,mix,colorThree);
+
+// I believe the code is missing a if command for colortwo. 
+// this is my rewrite of the code the way it needs to be. 
+//
+//let colorOne = " red ";
+let colorTwo = " blue ";
+let mix = true;
+
+if (mix == true) {
+    colorOne = "purple"
+
+}  
+ if ( mix == true ) {colorTwo = "purple"
+}
+ else {
+
+ };
+
 */
 
 //5. We start with two variables -- temp is set to 40 and time is set to 4.
@@ -152,11 +168,27 @@ if (mix === true) {
 let temp = 40;
 const time = 4;
  
--- console.log( temp,time);--
---if (temp >= 39)--
+// fix-- needs a else command and a result declared
+// temp < 39 is missing a = 
+
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
+// my re write to fix it 
+//
+//let temp = 40;
+const time = 4;
+ let result;
+
+
+if (temp >= 39 || time >= 4) {
+  (result = 'throw away the food!');
+}
+if ( temp <= 39 || time <= 4 ) { "throw away the food !"
+} else { result = "food is good"
+};
+
+console.log(result);
 
 */
 
@@ -165,19 +197,32 @@ if (temp > 39 || time >= 4) {
 // -- it is, so we console.log 'enter'.
 
 /*
+
+-- needs a result; declared with a second if for the entry then a else at the end. 
 let age = 21;
 const minAge = 21;
---console.log(age,minage);-- add let result; 
+
 if(minAge <= age) {
   console.log('no entry');
 } else {
   console.log('enter');
 }
-------if(minAge <= age) {
-  console.log(result='no entry');
+ 
+-- my fix re write 
+
+let age = 21;
+const minAge = 21;
+let result;
+if ( age <= minAge) { result = ("no entry")
+
+} if ( age >= minAge) { result = ("entry")
+
 } else {
-  console.log(result='enter');
-}
+
+};
+
+console.log(result);
+
 
 console.log(age result);
 */
