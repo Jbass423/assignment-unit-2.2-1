@@ -144,7 +144,7 @@ if (mix === true) {
 // I believe the code is missing a if command for colortwo. 
 // this is my rewrite of the code the way it needs to be. 
 //
-//let colorOne = " red ";
+let colorOne = " red ";
 let colorTwo = " blue ";
 let mix = true;
 
@@ -198,7 +198,7 @@ console.log(result);
 
 /*
 
--- needs a result; declared with a second if for the entry then a else at the end. 
+// needs a result; declared with a second if for the entry then a else at the end. 
 let age = 21;
 const minAge = 21;
 
