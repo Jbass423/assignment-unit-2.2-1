@@ -48,7 +48,7 @@ if (name === 'Mary') {
 // declare secret with empty value
 // declare code with a value of 123 
 // then a condtional that if the code is equal to 123 and the code is greater then 250  
-// the secret will have a value of super duper 
+// console.log super to be the secret if conditons are met 
 
 //CODE
 /*
@@ -71,9 +71,9 @@ console.log(secret)
 
 // 3. WRITE YOUR DESCRIPTION HERE
 // declare isStudent with a value of true, declare age with a value of 34 and declare zip with a value of 55407
-// write a 4 if else compund, if the isStudent is true and the zip is greater then 80000 it will say your a student on the west coast
-// if the isstudent is faalse and the age is less then 30 the message will be what are your hobbies
-//if the the isStudent is true the message will be welcome to prime, and else if nothings matches the messsge how about the weather
+// write a 4 if else compound, if the isStudent is true and the zip is greater then 80000 the code will run "you're a student on the wast cost!"
+// if the conditions of the first "if" are not met and then the "elseif" will see if conditions are met  isstudent is false and the age is less then 30 the code will run the message What are your hobbies?
+// if isStudent is true the message will be welcome to prime, and "else" no condtions are met  if nothings matches  the code will run message  how about the weather?
 // console.log(isstudent)
 //console.log ( age )
 //console.log (zip)
@@ -148,16 +148,9 @@ let colorOne = " red ";
 let colorTwo = " blue ";
 let mix = true;
 
-if (mix == true) {
-    colorOne = "purple"
-
-}  
- if ( mix == true ) {colorTwo = "purple"
-}
- else {
-
- };
-
+if (mix = true ) { colorOne = "purple", colorTwo = "purple"
+    
+};
 */
 
 //5. We start with two variables -- temp is set to 40 and time is set to 4.
@@ -168,7 +161,7 @@ if (mix == true) {
 let temp = 40;
 const time = 4;
  
-// fix-- needs a else command and a result declared
+// fix-- || needs to be && for and 
 // temp < 39 is missing a = 
 
 if (temp > 39 || time >= 4) {
@@ -181,14 +174,10 @@ const time = 4;
  let result;
 
 
-if (temp >= 39 || time >= 4) {
+if (temp >= 39 && time >= 4) {
   (result = 'throw away the food!');
 }
-if ( temp <= 39 || time <= 4 ) { "throw away the food !"
-} else { result = "food is good"
-};
 
-console.log(result);
 
 */
 
@@ -221,9 +210,9 @@ if ( age <= minAge) { result = ("no entry")
 
 };
 
-console.log(result);
 
 
-console.log(age result);
+
+console.log(age, result);
 */
 
