@@ -203,17 +203,18 @@ if(minAge <= age) {
 let age = 21;
 const minAge = 21;
 let result;
-if ( age <= minAge) { result = ("no entry")
+if ( age >= minAge) { result= (" enter")
 
-} if ( age >= minAge) { result = ("enter")
+} else if  ( age <= minAge) { result= (" no entry")
 
-} else {
+} else { 
 
 };
 
+console.log( result )
 
 
 
-console.log( result );
+
 */
 
