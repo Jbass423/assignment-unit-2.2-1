@@ -48,6 +48,7 @@ if (name === 'Mary') {
 // declare secret with empty value
 // declare code with a value of 123 
 // then a condtional that if the code is equal to 123 and the code is greater then 250  
+// line 61, if code is matching then it runs the second if statement
 // console.log super to be the secret if conditons are met 
 
 //CODE
@@ -71,7 +72,7 @@ console.log(secret)
 
 // 3. WRITE YOUR DESCRIPTION HERE
 // declare isStudent with a value of true, declare age with a value of 34 and declare zip with a value of 55407
-// write a 4 if else compound, if the isStudent is true and the zip is greater then 80000 the code will run "you're a student on the wast cost!"
+// write a 4 if else compound, if the isStudent is true and the zip is greater then 80000 the code will run "you're a student on the west cost!"
 // if the conditions of the first "if" are not met and then the "elseif" will see if conditions are met  isstudent is false and the age is less then 30 the code will run the message What are your hobbies?
 // if isStudent is true the message will be welcome to prime, and "else" no condtions are met  if nothings matches  the code will run message  how about the weather?
 // console.log(isstudent)
@@ -204,7 +205,7 @@ const minAge = 21;
 let result;
 if ( age <= minAge) { result = ("no entry")
 
-} if ( age >= minAge) { result = ("entry")
+} if ( age >= minAge) { result = ("enter")
 
 } else {
 
@@ -213,6 +214,6 @@ if ( age <= minAge) { result = ("no entry")
 
 
 
-console.log(age, result);
+console.log( result );
 */
 
